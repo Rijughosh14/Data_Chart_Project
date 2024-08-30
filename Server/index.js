@@ -10,7 +10,7 @@ const ShopifyProduct=require ('./Models/shopifyProductsModel.js')
 const app = express();
 
 //cors config
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+app.use(cors({ origin:true, credentials: true }));
 //express json
 app.use(express.json())
 //url encode
